@@ -2,10 +2,11 @@ import React, { useEffect } from 'react';
 import './Hero.css';
 import profile_img from '../../assets/kumar1.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import Resume from '/src/assets/dishu.pdf'
 
 const Hero = () => {
   const openResume = () => {
-    window.open("src/assets/dishu.pdf", "_blank");
+    window.open(Resume, "_blank");
   };
 
   useEffect(() => {
