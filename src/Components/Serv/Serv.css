@@ -170,4 +170,18 @@
         grid-template-columns: 1fr 1fr;
         gap: 30px;
     }
+    .service-modal-content {
+        width: 95%;
+        padding: 15px;
+        max-height: 75vh;
+    }
+    .close-btn {
+        top: 5px;
+        right: 10px;
+        font-size: 1.2rem;
+    }
+    
+    .service-modal-content p {
+        font-size: 0.9rem;
+    }
 }
