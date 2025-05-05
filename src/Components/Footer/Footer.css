@@ -101,27 +101,43 @@
     background-color: #005582;
 }
 
-@media(max-width:768px){
-    .footer{
-        margin: 50px 70px;
+@media (max-width: 768px) {
+    .footer {
+        margin: 20px 10px; /* Reduced margin for smaller screens */
+        padding: 0 10px; /* Add padding to prevent content from touching screen edges */
+        box-sizing: border-box;
     }
-    .footer-top{
-        flex-direction: column;
-        gap: 50px;
-    }
-    .footer-top-right{
-        flex-direction: column;
-    }
-    .footer-bottom-left{
-        font-size: 17px;
-    }
-    .footer-subscribe{
-        width: 60%;
-        margin-left: -180px;
-    }
-    .footer-bottom{
+
+    .footer-top {
         display: flex;
-        flex-direction: column-reverse;
-        margin-bottom: 50px;
+        flex-direction: column; /* Stacks the columns */
+        gap: 30px; /* Adjusted gap for more space between sections */
+        align-items: center; /* Center items on smaller screens */
+    }
+
+    .footer-top-right {
+        flex-direction: column;
+        align-items: center; /* Align right items to center */
+    }
+    .footer-email-input{
+        width: 90%;
+    }
+
+    .footer-bottom-left {
+        font-size: 16px; /* Slightly smaller font size */
+        text-align: center; /* Center-align text for better look on small screens */
+    }
+
+    .footer-subscribe {
+        width: 55%; /* Increased width to use more space */
+        margin-left: 0; /* Removed negative margin */
+        text-align: center; /* Center align the input field */
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column; /* Keeps content stacked vertically */
+        align-items: center; /* Center items */
+        margin-bottom: 20px; /* Adjusted margin for better spacing */
     }
 }
