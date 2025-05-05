@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-left">© 2024 Dishu Kumar. All Rights Reserved.</p>
+        <p className="footer-bottom-left">© 2025 Dishu Kumar. All Rights Reserved.</p>
         <div className="footer-bottom-right">
             <a href="https://www.linkedin.com/in/dishu-singh-6a73b324a" target="_blank" rel="noopener noreferrer">
                 <img src={linkedin_icon} alt="LinkedIn" className="footer-icon"/>
