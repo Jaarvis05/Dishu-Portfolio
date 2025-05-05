@@ -131,7 +131,7 @@
     .hero-resume {
         padding: 14px 28px;
         border-radius: 30px;
-        width: 50%;
+        width: fit-content;
     }
 }
 
