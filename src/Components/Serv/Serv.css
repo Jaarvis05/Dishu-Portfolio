@@ -177,6 +177,10 @@
         font-size: 16px;
         margin-bottom: 4px;
     }
+    
+    .service-modal-content {
+        width: 100%;
+    }
 
     .services-format p {
         font-size: 13px;
